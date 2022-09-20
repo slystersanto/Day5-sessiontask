@@ -1,0 +1,20 @@
+//Input :console.log(range(-4, 7));
+
+//Expected Output:[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+
+
+//stating the array start && end because the value starts from ranges
+function range(end,start) {
+//as we discussed in previous session we should create [] to get multiple values or needed value.
+  var temp= [];
+//for loop method is used to loop all the integers one by one  
+  for (var i = start; i >= end; i--) {
+    temp.push(i);
+  }
+//check all the conditions whether it is correct nor false it forwards to output  
+  
+
+return temp;
+};
+//here reverse method is used to reverse the order of an array
+console.log(range(-4 ,7).reverse());
